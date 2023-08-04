@@ -1,9 +1,9 @@
-# Master thesis: A dynamical system approach in the context of the analysis of a cortical network model simulating semantic priming.
+# Master thesis: Modeling and dynamical analysis of cortical network activity in semantic priming
 
 This repository includes all source codes that were used in my master thesis. The master thesis aimed at analyzing the network model designed by Brunel and Lavigne (2009). More specifically, the thesis investigates whether that model is sensitive to parameters and/or transfer function variations.
 
 ## *Julia* Packages
-The majority of codes is written in the *Julia* programming language (v1.9.0; []()) within a *Jupyter* notebook environement. Here below are the *Julia* Packages used alogn with their versions.
+The majority of codes is written in the *Julia* programming language (v1.9.0; [https://julialang.org/](https://julialang.org/)) within a *Jupyter* notebook environement. Here below are the *Julia* Packages used alogn with their versions.
 
 Package            | Version
 :------------------|:--------
@@ -20,7 +20,12 @@ QuadGK.jl          | v2.8.2
 Statistics         | v1.9.0
 
 ## Contents
+- `CuspSurf-method1/`: This folder contains the MATLAB codes (v9.9.0.1495850 (R2020b) Update 1) that draw the three-dimensional $(w, I, r_{eq})$ surface
+considering the original input-output relationship from Brunel and Lavigne (2009).
 
+- `Model sensitivity assessment and application to an experimental-like stimulus.ipynb`: This notebook contains all the source codes, simulations, analyses, results and graphs for the one-dimensional version of the original network model.
+
+- `Prime-Target Network.ipynb`: This notebook contains all the source codes, simulations, results and graphs for the two-dimensional version of the original network model. 
 
 ## Reference
 Brunel, Nicolas and Frédéric Lavigne (Dec. 2009). “Semantic Priming in a Cortical Net-
