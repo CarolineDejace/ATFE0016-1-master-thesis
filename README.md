@@ -3,7 +3,7 @@
 This repository includes all source codes that were used in my master thesis. The master thesis aimed at analyzing the network model designed by Brunel and Lavigne (2009). More specifically, the thesis investigates whether that model is sensitive to parameters and/or transfer function variations.
 
 ## *Julia* Packages
-The majority of codes is written in the *Julia* programming language (v1.9.0; [https://julialang.org/](https://julialang.org/)) within a *Jupyter* notebook environement. Here below are the *Julia* Packages used alogn with their versions.
+The majority of codes is written in the *Julia* programming language (v1.9.0; [https://julialang.org/](https://julialang.org/)) within a *Jupyter* notebook environement. Here below are the *Julia* Packages used along with their versions.
 
 Package            | Version
 :------------------|:--------
